@@ -1,0 +1,104 @@
+
+body{
+   margin: 25px;;
+   background-color: var(--bg-color);
+}
+:root{
+    --bg-color:#301313;
+    --box-shadow:0px,0px,5px rgb(156, 245, 68);
+    --button-color:rgb(186, 186, 186);
+    --color:rgb(255, 255, 255);
+    --new-color:rgb(255, 3, 66);
+
+
+}
+
+.header{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-family: "Anek Devanagari", sans-serif;
+    align-items: center;
+    padding: 15px;
+    position: sticky;
+    z-index: 999;
+    top: -10px;
+    box-shadow: 0 0px 10px 5px rgb(255, 254, 254);
+    
+}
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+    
+    
+}
+nav ul a{
+    color: var(--color);
+    text-decoration: none;
+
+}
+nav ul a:hover{
+    color: var(--new-color);
+    transition: all 1s;
+    cursor: pointer;
+}
+.logo{
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight: 600;
+    color: var(--color);
+    letter-spacing: 1px;
+    text-decoration: none;
+
+}
+.logo label{
+    color: rgb(201, 100, 5);
+}
+.box{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height:90vh;
+    align-items: center;    
+}
+.name{
+    color: rgb(238, 182, 1);
+    border: 1px solid white;
+    text-shadow: 2px 2px 0.1px #7d2716d7;
+}
+.left{
+    width: 50%;
+    color:var(--color);
+    font-size: 20px;
+    font-family: "Anek Devanagari", sans-serif;
+
+}
+.right{
+    width: 50%;
+  
+}
+.box .left h1{
+    margin: 0;
+    letter-spacing: 1px;
+    line-height: 40px;
+    
+}
+.button{
+    padding:8px;
+    background-color: rgb(180, 98, 10);
+    color: aliceblue;
+    border:none;
+    width: 80px;
+    border-radius: 15px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight: 600;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(241, 121, 29);
+}
+.image{
+    border-radius: 15px;
+}
